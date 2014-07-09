@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='changeorg',
@@ -18,7 +18,7 @@ Changeorg - a python module to interact with the change.org API
     py_modules=['changeorg'],
     zip_safe=False,
     tests_require=[],
-    requires=['requests'],
+    install_requires=['requests'],
     entry_points=\
     """ """,
 )
